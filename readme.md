@@ -25,3 +25,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## How to use
+Import database from folder  mydb to your own database
+Open url http://localhost/multiauth/public/admin/login for admin login
+username : aguzrybudy@ymail.com
+password : aguz112
+Open url http://localhost/multiauth/public/user/login for user login
+username : aguzrybudy@ymail.com
+password : aguz112
