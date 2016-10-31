@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2016-10-31 13:15:45
+Date: 2016-10-31 14:49:37
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,7 +35,7 @@ CREATE TABLE `admins` (
 -- Records of admins
 -- ----------------------------
 INSERT INTO `admins` VALUES ('1', 'Aguzrybudy', 'aguz@yahoo.com', '$2y$10$8Pk9p2NQqFKLjhNiuXqbgeDR2W3D3hDFb3D.2fFoXR7TGmFdcF3ve', null, '2016-10-19 17:17:40', '2016-10-19 17:17:44');
-INSERT INTO `admins` VALUES ('2', 'aguzrybudy', 'aguzrybudy@ymail.com', '$2y$10$.zrZqrb1Q9hOrLf8BTHLLOSZ4ZT5HNL1YToKSy2fwvJEkMQLQ2Rzi', null, '2016-10-19 10:20:39', '2016-10-19 10:20:39');
+INSERT INTO `admins` VALUES ('2', 'aguzrybudy', 'aguzrybudy@ymail.com', '$2y$10$.zrZqrb1Q9hOrLf8BTHLLOSZ4ZT5HNL1YToKSy2fwvJEkMQLQ2Rzi', 'YGfxdR9CcatJz3zI7BnR3wlYEkyB6QDrwmEjRIxQKCtLan4H0Fee0hHfgUZZ', '2016-10-19 10:20:39', '2016-10-31 06:53:22');
 
 -- ----------------------------
 -- Table structure for migrations
@@ -85,8 +85,9 @@ CREATE TABLE `users` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
+INSERT INTO `users` VALUES ('2', 'aguzrybudy', 'aguzrybudy@ymail.com', '$2y$10$/n2xlv9rC49q39pSvMPVvu3V8B8S1uw6l4RP40t6XWcpUvcJBT58C', 'zUGsgcIuqK6Fi2glRfCUefYexBShDuUN6TntEI6cHW5poqM1TpitHWuG1ZyP', '2016-10-31 07:48:30', '2016-10-31 07:48:43');
